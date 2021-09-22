@@ -14,7 +14,7 @@
       "label": "clean",
       "type": "shell",
       "command": "yarn",
-      "args": ["rimraf", "build"]
+      "args": ["clean"]
     }
   ]
 }
