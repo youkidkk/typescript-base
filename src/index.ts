@@ -1,3 +1,5 @@
 import { greet } from "sample/greet";
 
-console.log(greet("TypeScript"));
+export default function (): void {
+  console.log(greet("TypeScript"));
+}
