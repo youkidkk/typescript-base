@@ -12,6 +12,7 @@
     "sourceMap": true,
     "outDir": "./build",
     "declaration": true,
+    "declarationMap": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
