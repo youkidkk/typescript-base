@@ -4,9 +4,9 @@
     {
       "group": "build",
       "label": "build",
-      "type": "typescript",
-      "tsconfig": "tsconfig-build.json",
-      "problemMatcher": ["$tsc"],
+      "type": "shell",
+      "command": "yarn",
+      "args": ["build"],
       "dependsOn": ["clean"]
     },
     {
