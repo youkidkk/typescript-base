@@ -6,7 +6,7 @@
     "rootDir": "./src",
     "baseUrl": ".",
     "paths": {
-      "*": ["src/*"]
+      "#*": ["src/*"]
     },
     "rootDirs": ["./src", "./tests"],
     "sourceMap": true,
