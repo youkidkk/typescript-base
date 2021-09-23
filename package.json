@@ -2,7 +2,7 @@
   "name": "typescript-base",
   "version": "1.0.0",
   "description": "TypeScript のプロジェクトベース",
-  "main": "index.js",
+  "main": "./build/index.js",
   "repository": "https://github.com/youkidkk/typescript-base",
   "author": "youkidkk",
   "license": "None",
