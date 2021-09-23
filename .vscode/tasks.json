@@ -3,18 +3,25 @@
   "tasks": [
     {
       "group": "build",
-      "label": "build",
-      "type": "shell",
-      "command": "yarn",
-      "args": ["build"],
-      "dependsOn": ["clean"]
-    },
-    {
-      "group": "build",
       "label": "clean",
       "type": "shell",
       "command": "yarn",
       "args": ["clean"]
+    },
+    {
+      "group": "build",
+      "label": "test",
+      "type": "shell",
+      "command": "yarn",
+      "args": ["test"]
+    },
+    {
+      "group": "build",
+      "label": "build",
+      "type": "shell",
+      "command": "yarn",
+      "args": ["build"],
+      "dependsOn": ["clean", "test"]
     }
   ]
 }
