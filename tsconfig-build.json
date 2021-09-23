@@ -11,6 +11,7 @@
     "rootDirs": ["./src", "./tests"],
     "sourceMap": true,
     "outDir": "./build",
+    "declaration": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
