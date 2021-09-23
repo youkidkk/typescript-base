@@ -27,7 +27,7 @@
   },
   "scripts": {
     "clean": "rimraf build coverage",
-    "build": "tsc --project tsconfig-build.json",
+    "build": "webpack",
     "test": "jest"
   }
 }
