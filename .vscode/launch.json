@@ -24,9 +24,8 @@
       "type": "pwa-node",
       "request": "launch",
       "program": "${file}",
-      "outFiles": ["${workspaceFolder}/dist/**/*.js"],
       "env": {
-        "NODE_PATH": "./dist"
+        "NODE_PATH": "./build"
       },
       "internalConsoleOptions": "openOnSessionStart",
       "outputCapture": "std"
